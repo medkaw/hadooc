@@ -1,0 +1,149 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hadooc_test_{Mohamed kaouech}
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e-20211229\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-21 15:05+0000\n"
+"PO-Revision-Date: 2024-05-21 15:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "<i class=\"fa fa-check\"/> Approve"
+msgstr "<i class=\"fa fa-check\"/> Approuver"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "<i class=\"fa fa-comment\"/> Feedback"
+msgstr "<i class=\"fa fa-comment\"/> Feedback"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> Télécharger"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "<i class=\"fa fa-print\"/> Print"
+msgstr "<i class=\"fa fa-print\"/> Imprimer"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "<i class=\"fa fa-times\"/> Reject"
+msgstr "<i class=\"fa fa-times\"/> Rejeter"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Accept &amp; Pay"
+msgstr "Accepter &amp; Payer"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Accept &amp; Sign"
+msgstr "Accepter &amp; Signer"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.inherit_view_id_inherit_sale_order
+msgid "Approve"
+msgstr "Approuver"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__cancel
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.inherit_view_id_inherit_sale_order
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Download"
+msgstr "Télécharger"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields,field_description:hadooc_test_{Mohamed
+#: kaouech}.field_sale_order__is_manager
+msgid "Is Manager"
+msgstr ""
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__done
+msgid "Locked"
+msgstr "Bloqué"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Pay Now"
+msgstr ""
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__draft
+msgid "Quotation"
+msgstr "Devis"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__sent
+msgid "Quotation Sent"
+msgstr "Devis envoyé"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model,name:hadooc_test_{Mohamed kaouech}.model_sale_order
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__sale
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.inherit_view_id_inherit_sale_order
+msgid "Send by Email"
+msgstr ""
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model_terms:ir.ui.view,arch_db:hadooc_test_{Mohamed
+#: kaouech}.sale_order_portal_template_inherit
+msgid "Sign &amp; Pay"
+msgstr ""
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields,field_description:hadooc_test_{Mohamed
+#: kaouech}.field_sale_order__state
+msgid "Status"
+msgstr "État"
+
+#. module: hadooc_test_{Mohamed kaouech}
+#: model:ir.model.fields.selection,name:hadooc_test_{Mohamed
+#: kaouech}.selection__sale_order__state__to_approve
+msgid "To Approve"
+msgstr "Approuver"
