@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
 from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError
-from datetime import date
+
 
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
-    state = fields.Selection(selection_add=[
-        ('to_approve', 'Approved')
-    ], ondelete={'to_approve': 'set default'})
+    
     state = fields.Selection([
         ('draft', 'Quotation'),
         ('to_approve', 'To Approve'),
@@ -34,7 +31,7 @@ class SaleOrder(models.Model):
                 print('moi1',order.is_manager)
             elif not self.env.user.has_group('sales_team.group_sale_manager') and order.state == 'draft':
                 order.is_manager = True
-                print('moi',order.is_manager)
+               
             else:
                 order.is_manager = False
 
